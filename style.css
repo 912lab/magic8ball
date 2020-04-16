@@ -31,7 +31,7 @@ position: relative;
 }
 .ball img{
   width: 100%;
-  max-width: 60em;
+  max-width: 80em;
 }
 .answer {
   color: #222;
@@ -54,7 +54,7 @@ position: relative;
   border-radius: 5px;
   border: none;
   padding: .5em 1em;
-  width: 80%;
+  width: 90%;
   max-width: 15em;
   margin-top: 1em;
 }
