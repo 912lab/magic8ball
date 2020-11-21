@@ -3,6 +3,10 @@ html {
     width: 100%;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     font-size: 18pt;
     background: url('../img/wood_pattern.png') repeat;
