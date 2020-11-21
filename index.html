@@ -40,16 +40,19 @@
     </section>
 	    
 	    
-    <div data-sharing-buttons="true" 
-         data-services="twitter facebook email"
-         data-otherOptionName="Other option value"
-         class="sharing-buttons">
-    </div>
 			<footer>
+				<div class="sharing-buttons top-buttons"></div>
+    				<div class="sharing-buttons bottom-buttons"></div>				
+				<a href="https://instastory.download">InstaStory.download</a>				
 				<p>&copy; 912lab 2018-2020</p>
-				<a href="https://instastory.download">InstaStory.download</a>
 			</footer>
-
+		<script>
+      // ... after document is ready:
+      AddSharingButtons('.sharing-buttons', { 
+        services: 'pinterest tumblr reddit',
+        otherOptionName: 'Other option value'
+      });
+    </script>
 		  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.js"></script>
 	          <script type="text/javascript" src="script.js"></script>
 	  </div>
