@@ -286,3 +286,12 @@ body > .visible {
 .sharing-buttons > a:hover {
     filter: brightness(115%);
 }
+
+
+footer {
+    position: fixed;
+    bottom: 0;    
+    max-width: 500px;
+    margin: 0 auto;
+}
+    
