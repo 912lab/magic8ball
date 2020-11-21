@@ -234,7 +234,7 @@ body > .visible {
     display: inline-block;
     vertical-align: middle;
     padding-right: 1em;
-    color: white;
+    color: black;
 }
 
 .sharing-buttons > a {
